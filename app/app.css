@@ -1,8 +1,21 @@
 @import "tailwindcss";
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-sans:
+    "Poppins", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+  /* Brand */
+  --color-brand: #289bde;
+
+  /* Neutrals used throughout the Figma file */
+  --color-dark-01: #1d1d1d;
+  --color-dark-02: #4a4a4a;
+  --color-dark-03: #777777;
+  --color-dark-05: #d2d2d2;
+  --color-dark-06: #e8e8e8;
+  --color-dark-07: #f4f4f4;
+  --color-footer: #161616;
 }
 
 html,
