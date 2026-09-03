@@ -52,7 +52,7 @@ export default function Explore() {
                 {stats.map((stat) => (
                   <div
                     key={stat.id}
-                    className="text-right flex flex-col items-start"
+                    className="text-left flex flex-col items-start"
                   >
                     <p className="font-sans text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl">
                       {stat.value}
