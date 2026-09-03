@@ -3,6 +3,8 @@ import Container from "../shared/Container";
 import Button from "../ui/Button";
 import exploreData from "../../app/data/exploreData.json";
 
+import exploreImage from "../../app/assets/explore-left-person.png";
+
 export default function Explore() {
   const {
     title,
@@ -11,7 +13,6 @@ export default function Explore() {
     stats,
     ctaLabel,
     ctaHref,
-    image,
   } = exploreData.explore;
 
   return (
@@ -22,7 +23,7 @@ export default function Explore() {
           <div className="w-full lg:w-1/2">
             <div className="relative overflow-hidden rounded-lg">
               <img
-                src={image}
+                src={exploreImage}
                 alt="Explore eLearning Institute"
                 className="h-full w-full object-cover"
               />

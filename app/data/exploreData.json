@@ -21,7 +21,6 @@
       }
     ],
     "ctaLabel": "Read More",
-    "ctaHref": "/about",
-    "image": "/app/assets/explore-left-person.png"
+    "ctaHref": "/about"
   }
 }

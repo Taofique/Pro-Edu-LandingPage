@@ -4,9 +4,18 @@ import Container from "../shared/Container";
 import Button from "../ui/Button";
 import heroData from "../../app/data/heroData.json";
 
+import heroBg1 from "../../app/assets/hero/hero-bg.png";
+import heroBg2 from "../../app/assets/hero/hero-bg-2.png";
+import heroBg3 from "../../app/assets/hero/hero-bg-3.png";
+
+const heroImageMap: Record<number, string> = {
+  1: heroBg1,
+  2: heroBg2,
+  3: heroBg3,
+};
+
 type Slide = {
   id: number;
-  image: string;
   title: string;
   description: string;
   ctaLabel: string;
@@ -79,7 +88,7 @@ export default function Hero() {
             }}
           >
             <img
-              src={s.image}
+              src={heroImageMap[s.id]}
               alt={s.title}
               className="size-full object-cover object-[center_20%]"
             />

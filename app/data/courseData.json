@@ -2,7 +2,7 @@
   "courses": [
     {
       "id": 1,
-      "image": "/app/assets/course/UI_UX.png",
+      "image": "UI_UX.png",
       "title": "Fundamental Of UI/UX Design",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -10,7 +10,7 @@
     },
     {
       "id": 2,
-      "image": "/app/assets/course/FullStack.png",
+      "image": "FullStack.png",
       "title": "Fullstack Web Development",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -18,7 +18,7 @@
     },
     {
       "id": 3,
-      "image": "/app/assets/course/Photography.png",
+      "image": "Photography.png",
       "title": "Photography Basic Rules",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -26,7 +26,7 @@
     },
     {
       "id": 4,
-      "image": "/app/assets/course/JavaScript.png",
+      "image": "JavaScript.png",
       "title": "JavaScript Basic to Advanced",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -34,7 +34,7 @@
     },
     {
       "id": 5,
-      "image": "/app/assets/course/Digital_Marketing.png",
+      "image": "Digital_Marketing.png",
       "title": "Digital Marketing",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -42,7 +42,7 @@
     },
     {
       "id": 6,
-      "image": "/app/assets/course/Motion_Graphics.png",
+      "image": "Motion_Graphics.png",
       "title": "Motion Graphics",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,
@@ -50,7 +50,7 @@
     },
     {
       "id": 7,
-      "image": "/app/assets/course/UI_UX.png",
+      "image": "UI_UX.png",
       "title": "Advanced UI/UX Design",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 25,
@@ -58,7 +58,7 @@
     },
     {
       "id": 8,
-      "image": "/app/assets/course/FullStack.png",
+      "image": "FullStack.png",
       "title": "DevOps Fundamentals",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 22,
@@ -66,7 +66,7 @@
     },
     {
       "id": 9,
-      "image": "/app/assets/course/JavaScript.png",
+      "image": "JavaScript.png",
       "title": "React & Next.js Mastery",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 28,
@@ -74,7 +74,7 @@
     },
     {
       "id": 10,
-      "image": "/app/assets/course/Digital_Marketing.png",
+      "image": "Digital_Marketing.png",
       "title": "Social Media Strategy",
       "description": "Some quick example text to build on the card title and make up the bulk of the card.",
       "price": 20,

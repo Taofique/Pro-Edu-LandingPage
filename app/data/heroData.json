@@ -2,7 +2,6 @@
   "slides": [
     {
       "id": 1,
-      "image": "/app/assets/hero/hero-bg.png",
       "title": "Get Started Digital Learning",
       "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
       "ctaLabel": "Get Started",
@@ -10,7 +9,6 @@
     },
     {
       "id": 2,
-      "image": "/app/assets/hero/hero-bg-2.png",
       "title": "Learn from Industry Experts",
       "description": "Access world-class courses taught by professionals with years of real-world experience.",
       "ctaLabel": "Explore Courses",
@@ -18,7 +16,6 @@
     },
     {
       "id": 3,
-      "image": "/app/assets/hero/hero-bg-3.png",
       "title": "Achieve Your Career Goals",
       "description": "Join thousands of successful students who transformed their careers with our programs.",
       "ctaLabel": "Join Now",

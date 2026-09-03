@@ -5,11 +5,30 @@ import Button from "../ui/Button";
 import CourseCard from "../courses/CourseCard";
 import coursesData from "../../app/data/courseData.json";
 
+import uiUx from "../../app/assets/course/UI_UX.png";
+import fullStack from "../../app/assets/course/FullStack.png";
+import photography from "../../app/assets/course/Photography.png";
+import javascript from "../../app/assets/course/JavaScript.png";
+import digitalMarketing from "../../app/assets/course/Digital_Marketing.png";
+import motionGraphics from "../../app/assets/course/Motion_Graphics.png";
+
+const courseImageMap: Record<string, string> = {
+  "UI_UX.png": uiUx,
+  "FullStack.png": fullStack,
+  "Photography.png": photography,
+  "JavaScript.png": javascript,
+  "Digital_Marketing.png": digitalMarketing,
+  "Motion_Graphics.png": motionGraphics,
+};
+
 const COURSES_PER_PAGE = 6;
 
 export default function Courses() {
   const [visibleCount, setVisibleCount] = useState(COURSES_PER_PAGE);
-  const courses = coursesData.courses;
+  const courses = coursesData.courses.map((course) => ({
+    ...course,
+    image: courseImageMap[course.image.split("/").pop() || ""],
+  }));
   const visibleCourses = courses.slice(0, visibleCount);
   const hasMore = visibleCount < courses.length;
 
