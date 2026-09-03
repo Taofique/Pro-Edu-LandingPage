@@ -81,7 +81,7 @@ export default function Hero() {
             <img
               src={s.image}
               alt={s.title}
-              className="size-full object-cover"
+              className="size-full object-cover object-[center_20%]"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30" />
           </div>
