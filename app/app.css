@@ -15,6 +15,7 @@
   --color-dark-05: #d2d2d2;
   --color-dark-06: #e8e8e8;
   --color-dark-07: #f4f4f4;
+
   --color-footer: #161616;
 }
 
@@ -24,5 +25,58 @@ body {
 
   @media (prefers-color-scheme: dark) {
     color-scheme: dark;
+  }
+}
+
+/* Infinite company marquee */
+@keyframes trusted-companies-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.trusted-companies-track {
+  --marquee-gap: 72px;
+  animation: trusted-companies-scroll 25s linear infinite;
+  will-change: transform;
+  width: max-content;
+  display: flex;
+}
+
+.trusted-companies-group {
+  display: flex;
+  align-items: center;
+  gap: var(--marquee-gap);
+  padding-right: var(--marquee-gap); /* equal spacing at the seam */
+}
+
+.trusted-companies-item {
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.trusted-companies-item img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
+
+.trusted-companies-track:hover {
+  animation-play-state: paused;
+}
+
+@media (min-width: 1024px) {
+  .trusted-companies-track {
+    --marquee-gap: 110px;
+  }
+}
+
+@media (max-width: 639px) {
+  .trusted-companies-item img {
+    height: 28px;
   }
 }

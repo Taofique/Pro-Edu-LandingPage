@@ -6,6 +6,7 @@ import Students from "../../components/home/Students";
 import Feedback from "../../components/home/Feedback";
 import FAQ from "../../components/home/FAQ";
 import Join from "../../components/home/Join";
+import TrustedCompanies from "../../components/home/TrustedCompanies";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -20,10 +21,11 @@ export default function Home() {
       <Hero />
       <Courses />
       <Explore />
+      <Join />
       <Students />
       <Feedback />
       <FAQ />
-      <Join />
+      <TrustedCompanies />
     </>
   );
 }
