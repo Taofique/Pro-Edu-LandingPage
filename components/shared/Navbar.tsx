@@ -16,7 +16,7 @@ export default function Navbar() {
   const [open, setOpen] = useState(false);
 
   return (
-    <header className="w-full bg-white">
+    <header className="sticky top-0 z-50 w-full bg-white/90">
       <Container className="flex items-center justify-between py-6">
         <Link
           to="/"
