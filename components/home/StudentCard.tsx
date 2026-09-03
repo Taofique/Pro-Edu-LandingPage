@@ -6,7 +6,7 @@ type StudentCardProps = {
 
 export default function StudentCard({ image, name, role }: StudentCardProps) {
   return (
-    <div className="overflow-hidden rounded-[5px] border border-dark-06 bg-white">
+    <div className="overflow-hidden rounded-[5px] border border-dark-06 bg-white transition-all duration-300 hover:-translate-y-1 hover:shadow-lg">
       <img
         src={image}
         alt={name}
