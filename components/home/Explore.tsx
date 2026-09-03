@@ -33,28 +33,31 @@ export default function Explore() {
           <div className="w-full lg:w-1/2">
             <div className="flex flex-col gap-4 sm:gap-6">
               {/* Title */}
-              <h2 className="font-sans text-2xl font-semibold text-dark-02 sm:text-3xl lg:text-4xl">
+              <h2 className="font-sans text-2xl font-semibold text-slate-900 sm:text-3xl lg:text-4xl">
                 {title}
               </h2>
 
               {/* Description */}
-              <p className="font-sans text-sm leading-relaxed text-dark-04 sm:text-base lg:text-lg">
+              <p className="font-sans text-sm leading-relaxed text-slate-500 sm:text-base lg:text-lg">
                 {description}
               </p>
 
               {/* Sub-description */}
-              <p className="font-sans text-sm leading-relaxed text-dark-04 sm:text-base lg:text-lg">
+              <p className="font-sans text-sm leading-relaxed text-slate-500 sm:text-base lg:text-lg">
                 {subDescription}
               </p>
 
               {/* Stats Grid */}
               <div className="mt-2 grid grid-cols-3 gap-4 sm:gap-6 lg:mt-4">
                 {stats.map((stat) => (
-                  <div key={stat.id} className="text-center">
-                    <p className="font-sans text-xl font-bold text-dark-02 sm:text-2xl lg:text-3xl">
+                  <div
+                    key={stat.id}
+                    className="text-right flex flex-col items-start"
+                  >
+                    <p className="font-sans text-xl font-bold text-slate-900 sm:text-2xl lg:text-3xl">
                       {stat.value}
                     </p>
-                    <p className="font-sans text-xs text-dark-04 sm:text-sm lg:text-base">
+                    <p className="font-sans font-bold text-xs text-slate-500 sm:text-sm lg:text-base">
                       {stat.label}
                     </p>
                   </div>
