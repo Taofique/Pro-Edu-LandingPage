@@ -3,6 +3,8 @@ import Hero from "../../components/home/Hero";
 import Courses from "../../components/home/Courses";
 import Explore from "../../components/home/Explore";
 import Students from "../../components/home/Students";
+import Feedback from "../../components/home/Feedback";
+import FAQ from "../../components/home/FAQ";
 import Join from "../../components/home/Join";
 
 export function meta({}: Route.MetaArgs) {
@@ -19,6 +21,8 @@ export default function Home() {
       <Courses />
       <Explore />
       <Students />
+      <Feedback />
+      <FAQ />
       <Join />
     </>
   );

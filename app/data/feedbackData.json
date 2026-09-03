@@ -1,0 +1,44 @@
+{
+  "feedbacks": [
+    {
+      "id": 1,
+      "text": "Pro Edu made learning UI design much easier for me. The courses are well structured, practical, and easy to follow. I was able to improve my design skills and feel much more confident working on real projects.",
+      "name": "Awlad Hossain",
+      "role": "UI Designer",
+      "imageKey": "awladEllipse",
+      "rating": 4.5
+    },
+    {
+      "id": 2,
+      "text": "I really enjoyed the learning experience on Pro Edu. The lessons were clear, engaging, and helped me develop stronger creative skills. The practical examples were especially useful for improving my graphic design work.",
+      "name": "Shanta Akter",
+      "role": "Graphic Designer",
+      "imageKey": "santaEllipse",
+      "rating": 4.5
+    },
+    {
+      "id": 3,
+      "text": "The web development courses gave me a solid understanding of modern development concepts. I learned step by step and could apply what I learned directly to my own projects. It has been a great experience overall.",
+      "name": "Imran Hossain",
+      "role": "Web Developer",
+      "imageKey": "imran",
+      "rating": 4
+    },
+    {
+      "id": 4,
+      "text": "The motion design course was exactly what I needed to take my skills further. The lessons were easy to understand, and the hands-on approach helped me learn new techniques that I now use in my creative work.",
+      "name": "Jannatul Islam",
+      "role": "Motion Designer",
+      "imageKey": "jannatul",
+      "rating": 4.5
+    },
+    {
+      "id": 5,
+      "text": "Pro Edu helped me strengthen my frontend development skills with clear lessons and practical projects. I especially liked being able to learn at my own pace while building the confidence to work on real applications.",
+      "name": "Nishi Akter",
+      "role": "Frontend Developer",
+      "imageKey": "nishi",
+      "rating": 5
+    }
+  ]
+}
